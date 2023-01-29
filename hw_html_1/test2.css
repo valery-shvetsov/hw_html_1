@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.containertxt {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title, .desc, .subtitle {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Ruslan Display', cursive;
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px
+}
+.nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgba(3, 10, 199, 0.985);
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border: 1px solid rgb(3, 10, 199);
+    color: rgba(3, 10, 199, 0.707);
+    background-color: #fff;
+}
+
+
+.item {
+    width: 263px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.item-pic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-pic {
+    width: 100%;
+    border-radius: 10px;
+    text-align: center
+}
+.content {
+    margin-top: 20px;
+}
+
+.subtitle {
+    font-family: 'Ruslan Display', cursive;
+    font-size: 30px;
+}
+
+.item-box {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.item {
+    margin-bottom: 50px;
+}
+
+
+.item-link {
+    padding: 5px;
+    background-color: #fff;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Ruslan Display', cursive;
+    text-decoration: none;
+    color: #000;
+}
